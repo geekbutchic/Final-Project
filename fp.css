@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #AAA;
+    background-size: 340px, auto;
+    margin: 50px;
+}
+
+/* Each item in the grid contains numbers */
+
+.item {
+    /* Center the contents of the grid items. Making each grid item a Flex Container */
+    display: grid;
+    /* Horizontal and Vertical centering */
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #87b5ff;
+    border-radius: 15px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1c57b5
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px;
+    grid-gap: 20px;
+}
