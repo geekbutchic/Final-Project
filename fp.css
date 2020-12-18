@@ -3,9 +3,8 @@
 }
 
 body {
-    background-color: #AAA;
-    background-size: 340px, auto;
-    margin: 50px;
+    display: grid;
+    background-image: url('http://www.wicklowpartnership.ie/wp-content/uploads/2013/06/Healthy-Foods.jpeg');    
 }
 
 /* Each item in the grid contains numbers */
@@ -15,11 +14,55 @@ body {
     display: grid;
     /* Horizontal and Vertical centering */
     justify-content: center;
+    height: 50px;
     align-items: center;
-    border: 5px solid #87b5ff;
-    border-radius: 15px;
+    border: 5px solid #8eb5f3;
+    border-radius: 25px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #1c57b5
+}
+
+.item1 {
+    display: grid;
+    /* Horizontal and Vertical centering */
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border: 5px solid #8eb5f3;
+    border-radius: 25px;
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #1c57b5
+}
+
+.item2 {
+    display: grid;
+    /* Horizontal and Vertical centering */
+    height: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    border: 5px solid #8eb5f3;
+    border-radius: 25px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #1c57b5
+}
+
+.item3 {
+    display: grid;
+    /* Horizontal and Vertical centering */
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #8eb5f3;
+    border-radius: 25px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: #1c57b5
 }
@@ -28,5 +71,11 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: 400px;
-    grid-gap: 20px;
+    grid-gap: 10px;
+
 }
+
+
+
+
+
