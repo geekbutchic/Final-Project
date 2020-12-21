@@ -17,11 +17,11 @@ body {
     height: 50px;
     align-items: center;
     border: 5px solid #8eb5f3;
-    border-radius: 25px;
+    border-radius: 20px;
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: #1c57b5
+    background-color: rgb(39, 231, 222);
 }
 
 .item1 {
@@ -35,7 +35,7 @@ body {
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: #1c57b5
+    background-color: rgb(39, 231, 222);
 }
 
 .item2 {
@@ -50,7 +50,7 @@ body {
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: #1c57b5
+    background-color: rgb(39, 231, 222);
 }
 
 .item3 {
@@ -64,7 +64,7 @@ body {
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: #1c57b5
+    background-color: rgb(39, 231, 222);
 }
 
 .container {
